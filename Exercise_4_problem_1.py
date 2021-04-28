@@ -19,6 +19,15 @@
 # - Adding comments in your code and a docstring that explains how to use your `fahr_to_celsius` function (i.e., you should write the purpose of the function, parameters, and returned values)
 
 # YOUR CODE HERE
+def fahr_to_celsius(temp_fahrenheit):
+    return (temp_fahrenheit - 32)/1.8
+#I crated the function to convert the input temperature from degrees Fahrenheit to degrees Celsius. We can describe that  T{Celsius} = ( T{Fahrenheit} - 32 ) / 1.8. That is why I defined the parameter and the return statement.
+
+converted_temp = fahr_to_celsius(48)
+print("48 degrees Fahrenheit in Celsius is:",converted_temp )
+converted_temp = fahr_to_celsius(71)
+print("71 degrees Fahrenheit in Celsius is:", converted_temp)
+#
 
 # ### Problem 1 tests
 # 
@@ -42,7 +51,8 @@
 # Write your answers below:
 
 # YOUR ANSWER HERE. Write your answers as comments
-#
+#1. Yes, it is.
+#2. When we repeat the same process, we can easily write the code by using functions.
 #
 #
 #
