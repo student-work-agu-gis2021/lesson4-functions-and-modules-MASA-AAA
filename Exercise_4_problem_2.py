@@ -25,16 +25,39 @@
 
 
 # YOUR CODE HERE to define temp_classifier
+""" Prints information about Temperature classifier.
+Author:
+    Masataka Ohta - 28.4.2020
+"""
+#I created the function to classify temperature values in Celsius into integer numbers 0-3 based on following criteria.
+def temp_classifier(temp_celsius):
+
+#When you put a temperature value as a parameter,you can get a number which is classified into numbers based on the criteria as a returned value.
+    if temp_celsius < -2:
+      return 0
+    elif 2 > temp_celsius and temp_celsius >= -2:
+      return 1
+    elif 15 > temp_celsius and temp_celsius >= 2:
+      return 2
+    elif temp_celsius >= 15:
+      return 3
+
+
 
 # Use your newly created function to print the answers to the following questions:
 
 
 # 1. What is the class value for 16.5 degrees Celsius?
 # YOUR CODE HERE
-#
+
+#Print numbers 0-3 based on following criteria
+print(temp_classifier(16.5))
+
 # 2. What is the class value for +2 degrees Celsius?
 # YOUR CODE HERE
-#
+
+#Print numbers 0-3 based on following criteria
+print(temp_classifier(2))
 
 
 # ### Problem 2 tests
@@ -66,9 +89,9 @@ print("ok :)")
 #  - Does your function has an informative dosctring?
 
 # YOUR ANSWER HERE. Write your answer as comments
-#
-#
-#
+# Variable names are correct.
+# Yes
+# Yes
 #
 #
 # YOUR ANSWER ENDS HERE

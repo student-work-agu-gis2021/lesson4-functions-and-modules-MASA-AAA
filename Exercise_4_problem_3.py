@@ -66,6 +66,12 @@ temp_data =  [19, 21, 21, 21, 23, 23, 23, 21, 19, 21, 19, 21, 23, 27, 27, 28, 30
 
 # YOUR CODE HERE
 
+#Import two functions
+import  temp_functions as tc
+
+#Create an empty list
+temp_classes = ()
+
 # #### Part 2 (continues)
 # 
 # 6. Calculate how many temperatures there are in each temperature class:
