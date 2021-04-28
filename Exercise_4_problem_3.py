@@ -76,8 +76,14 @@ temp_class = []
 
 #Create a for loop
 for i in range(len(temp_data)):
+
+  #assign the temperature in Celsius
    temp_celsius.append(tc.fahr_to_celsius(temp_data[i]) )
+
+  #assign the temperature class number (0, 1, 2, or 3) 
    temp_class.append(tc.temp_classifier(temp_celsius[i]))
+
+  #Add the temp_class value to the temp_classes list
    temp_classes.append(temp_class[i]) 
 
 # #### Part 2 (continues)
@@ -90,7 +96,7 @@ for i in range(len(temp_data)):
 
 # YOUR CODE HERE
 
-#Create four variables
+#Create four variables which Count and assign to each variable how many times values 0, 1, 2, and 3
 zeros = temp_classes.count(0)
 ones = temp_classes.count(1)
 twos = temp_classes.count(2)
