@@ -67,7 +67,7 @@ temp_data =  [19, 21, 21, 21, 23, 23, 23, 21, 19, 21, 19, 21, 23, 27, 27, 28, 30
 # YOUR CODE HERE
 
 #Import two functions
-import  temp_functions as tc
+import temp_functions as tc
 
 #Create an empty list
 temp_classes = []
@@ -90,7 +90,11 @@ for i in range(len(temp_data)):
 
 # YOUR CODE HERE
 
-#
+#Create four variables
+zeros = temp_classes.count(0)
+ones = temp_classes.count(1)
+twos = temp_classes.count(2)
+threes = temp_classes.count(3)
 
 # **TIP**: You might want to consider using a [**count()** function](https://www.tutorialspoint.com/python3/list_count.htm) OR a for loop for this.
 
@@ -112,8 +116,8 @@ print(zeros,ones,twos,threes)
 # - If you have any comments and concerns at this point, you can write them below:
 
 # YOUR ANSWER HERE. Write your answer as comments (with #)
-#
-#
+#OK
+#I have not any concerns
 #
 #
 #
