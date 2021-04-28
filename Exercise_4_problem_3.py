@@ -78,7 +78,7 @@ temp_class = []
 for i in range(len(temp_data)):
    temp_celsius.append(tc.fahr_to_celsius(temp_data[i]) )
    temp_class.append(tc.temp_classifier(temp_celsius[i]))
-   temp_classes.append(temp_class[i])
+   temp_classes.append(temp_class[i]) 
 
 # #### Part 2 (continues)
 # 
